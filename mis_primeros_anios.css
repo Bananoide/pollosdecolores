@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat;
+    padding: 10px; 
+    font-size:1em;
+    line-height:24px;
+    background-color: #b9dfff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    /*font-family: Montserrat;
+    padding: 10px; /Margen izq, der, sup e inf./
+    /*background-color: #b9dfff;
+    min-height: 100vh;*/
+}
+
+.encabezado{
+   font-family:fantasy;
+   padding: 30px;
+   text-align: center;
+   background-color:#5fbdf7;
+}
+
+.encabezado h1 {
+    font-size: 58px;
+     text-shadow:#9bf8f8 2px 3px;
+}
+
+.menu{
+    background-color: #3789bc;
+    overflow: hidden;
+}
+
+.menu a{
+    float: left;
+    color: #bde6ff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 14px;
+}
+
+.menu a:hover{
+   /* border: 3px #217bb1 solid;*/
+    background-color: #0bc6c6;
+    transition: all 0.3s ease;
+    transform: scale(1.005);
+    color:#103850;
+}
+
+.cuerpo{
+    font-family: inherit;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.izq{
+    float: left;
+    width: 49.5%;
+    /*float: left;
+    font-family: monospace;
+    text-align: inherit;
+    font-size: 20px;*/
+}
+
+.der{
+    float: left;
+        width: 49.5%;
+        height: 400px;
+        background-image: url(mipa.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:100% 100%;
+}
+
+.pie{
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-top: auto;
+    background-color: #468ab4;
+    border: 1px #186b9d solid;
+    text-align: center;
+}
